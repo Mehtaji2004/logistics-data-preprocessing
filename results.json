@@ -1,0 +1,244 @@
+{
+  "raw_shape": [
+    1035,
+    11
+  ],
+  "missing_before": {
+    "shipment_id": 0,
+    "ship_date": 0,
+    "origin": 0,
+    "destination": 0,
+    "transport_mode": 30,
+    "distance_km": 65,
+    "weight_kg": 52,
+    "shipping_hours": 81,
+    "shipping_cost_inr": 39,
+    "inventory_units": 71,
+    "status": 0
+  },
+  "describe_before": {
+    "distance_km": {
+      "count": 970.0,
+      "mean": 886.99,
+      "std": 370.5,
+      "min": -918.1,
+      "25%": 660.52,
+      "50%": 893.55,
+      "75%": 1131.53,
+      "max": 1970.8
+    },
+    "weight_kg": {
+      "count": 983.0,
+      "mean": 1619.61,
+      "std": 2776.95,
+      "min": 58.4,
+      "25%": 796.4,
+      "50%": 1221.5,
+      "75%": 1740.4,
+      "max": 38197.4
+    },
+    "shipping_hours": {
+      "count": 954.0,
+      "mean": 44.27,
+      "std": 209.91,
+      "min": 2.4,
+      "25%": 14.6,
+      "50%": 21.6,
+      "75%": 27.8,
+      "max": 2389.9
+    },
+    "shipping_cost_inr": {
+      "count": 996.0,
+      "mean": 2104.71,
+      "std": 8747.91,
+      "min": 100.0,
+      "25%": 1000.18,
+      "50%": 1265.04,
+      "75%": 1571.82,
+      "max": 126223.9
+    },
+    "inventory_units": {
+      "count": 964.0,
+      "mean": 257.13,
+      "std": 139.0,
+      "min": 21.0,
+      "25%": 141.75,
+      "50%": 259.5,
+      "75%": 372.0,
+      "max": 499.0
+    }
+  },
+  "duplicates_removed": 35,
+  "labels_before": {
+    "origin": [
+      "AHMEDABAD",
+      "Ahmedabad",
+      "BENGALURU",
+      "Bengaluru",
+      "CHENNAI",
+      "Chennai",
+      "DELHI",
+      "Delhi",
+      "HYDERABAD",
+      "Hyderabad",
+      "KOLKATA",
+      "Kolkata",
+      "MUMBAI",
+      "Mumbai",
+      "PUNE",
+      "Pune"
+    ],
+    "transport_mode": [
+      "Air",
+      "Rail",
+      "Road",
+      "Sea",
+      "air",
+      "rail",
+      "road",
+      "sea"
+    ]
+  },
+  "labels_after": {
+    "origin": [
+      "Ahmedabad",
+      "Bengaluru",
+      "Chennai",
+      "Delhi",
+      "Hyderabad",
+      "Kolkata",
+      "Mumbai",
+      "Pune"
+    ],
+    "transport_mode": [
+      "Air",
+      "Rail",
+      "Road",
+      "Sea"
+    ]
+  },
+  "negative_distance_fixed": 6,
+  "outliers_flagged": {
+    "shipping_hours": 16,
+    "weight_kg": 36,
+    "shipping_cost_inr": 22
+  },
+  "iqr_bounds": {
+    "shipping_hours": [
+      -5.1,
+      47.7
+    ],
+    "weight_kg": [
+      -612.99,
+      3148.31
+    ],
+    "shipping_cost_inr": [
+      141.17,
+      2429.84
+    ]
+  },
+  "missing_after_outlier_step": {
+    "shipment_id": 0,
+    "ship_date": 0,
+    "origin": 0,
+    "destination": 0,
+    "transport_mode": 30,
+    "distance_km": 66,
+    "weight_kg": 86,
+    "shipping_hours": 95,
+    "shipping_cost_inr": 61,
+    "inventory_units": 70,
+    "status": 0
+  },
+  "missing_after": {
+    "shipment_id": 0,
+    "ship_date": 0,
+    "origin": 0,
+    "destination": 0,
+    "transport_mode": 0,
+    "distance_km": 0,
+    "weight_kg": 0,
+    "shipping_hours": 0,
+    "shipping_cost_inr": 0,
+    "inventory_units": 0,
+    "status": 0
+  },
+  "clean_shape": [
+    1000,
+    21
+  ],
+  "describe_after": {
+    "distance_km": {
+      "count": 1000.0,
+      "mean": 901.09,
+      "std": 337.96,
+      "min": 60.0,
+      "25%": 683.92,
+      "50%": 903.8,
+      "75%": 1118.62,
+      "max": 1970.8
+    },
+    "weight_kg": {
+      "count": 1000.0,
+      "mean": 1266.14,
+      "std": 608.06,
+      "min": 58.4,
+      "25%": 820.72,
+      "50%": 1190.6,
+      "75%": 1612.25,
+      "max": 3138.0
+    },
+    "shipping_hours": {
+      "count": 1000.0,
+      "mean": 21.23,
+      "std": 8.83,
+      "min": 2.4,
+      "25%": 15.78,
+      "50%": 21.5,
+      "75%": 27.0,
+      "max": 47.1
+    },
+    "shipping_cost_inr": {
+      "count": 1000.0,
+      "mean": 1272.27,
+      "std": 395.54,
+      "min": 193.77,
+      "25%": 1017.44,
+      "50%": 1262.07,
+      "75%": 1531.51,
+      "max": 2408.65
+    },
+    "inventory_units": {
+      "count": 1000.0,
+      "mean": 258.97,
+      "std": 134.09,
+      "min": 21.0,
+      "25%": 151.75,
+      "50%": 261.0,
+      "75%": 366.25,
+      "max": 499.0
+    }
+  },
+  "worked_example": {
+    "shipment_id": "SHP100404",
+    "weight_kg": 1190.6,
+    "weight_min": 58.4,
+    "weight_max": 3138.0,
+    "weight_mean": 1266.14,
+    "weight_std": 608.06,
+    "weight_minmax": 0.3676,
+    "weight_zscore": -0.1242
+  },
+  "mean_cost_raw": 2104.71,
+  "mean_cost_clean": 1272.27,
+  "mean_hours_raw": 44.27,
+  "mean_hours_clean": 21.23,
+  "mean_weight_raw": 1619.61,
+  "mean_weight_clean": 1266.14,
+  "cost_by_mode_clean": {
+    "Air": 1288.94,
+    "Rail": 1279.38,
+    "Road": 1257.38,
+    "Sea": 1350.39
+  }
+}
